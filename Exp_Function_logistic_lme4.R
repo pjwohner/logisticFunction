@@ -12,8 +12,8 @@ PJW_exp(-0.31,10)
 PJW_exp(0.13,10)
 
 #######################################################################
+###   R Primer  #############################################
 
-glm.model = glm(freq ~ Class * Age * Sex * Survived, data=ti, family=poisson)
 v2 = c(234, 17, 42.5, 64, 38)
  v2 <  200 
 
@@ -38,7 +38,6 @@ mean(M[,2])
 M[M[,2]<=10,2]
 
 M[M[,2]> mean(M[,2]),2]
-
 
 ##exponential growth function
 #value of growth rate
@@ -136,8 +135,6 @@ pwnormalize <- function(x){
   normvector = x/(sum(x))
   return (normvector)
 }
-
-
 pwnormalize(v)
 
 
